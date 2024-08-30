@@ -1,5 +1,7 @@
 name: Create Azure resources
-on: [workflow_dispatch] #configura el workflow para ejecutarse manualmente
+on: 
+  workflow_dispatch: #configura el workflow para ejecutarse manualmente
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
