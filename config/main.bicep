@@ -1,6 +1,7 @@
 @minLength(3)
 @maxLength(11)
 param namePrefix string
+param namePrefix mdrvs
 
 param location string = resourceGroup().location
 
